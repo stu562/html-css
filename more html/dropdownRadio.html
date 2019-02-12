@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Favorite food? </h1>
+  <form>
+    <label for="pizza">Pizza</label>
+    <!-- value attribute describe what will sent in the url as ie "...foodchoice=CHOICE1" -->
+    <input name="foodChoice" id="pizza" type="radio" value="CHOICE1">
+    <label for="noodles">Noodles</label>
+    <input name="foodChoice" id="noodles" type="radio" value="CHOICE2">
+    <label for="burgers">Burgers</label>
+    <input name="foodChoice" id="burgers" type="radio" value="CHOICE3">
+    <!-- if button is the last element, then form will submit -->
+
+    <p>How much do you want to spend?</p>
+    <select name="amount">
+      <option>Less than $5</option>
+      <option>More than $10</option>
+      <option>Doesn't matter</option>
+    </select>
+
+    <button>GO!</button>
+  </form>
+  
+</body>
+</html>
