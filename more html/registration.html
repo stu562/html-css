@@ -9,17 +9,38 @@
 <body>
   <h1>Register</h1>
   <form>
-    First Name: <input type="text">
-    Last Name: <input type="text">
+    First Name: <input type="text"required>
+    Last Name: <input type="text"required>
   </br>
     Male<input name="gender" type="radio">
     Female<input name="gender" type="radio">
     Other<input name="gender" type="radio">
   </br>
   Email: <input placeholder="your email" type="email">
-  Password: <input placeholder="your password" type="password">
+  Password: <input placeholder="your password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
 </br>
-  Birthday: <input type="date">
+  Birthday:
+  <select name ="month">
+    <option value="month">Month</option>
+    <option value="january">January</option>
+    <option value="february">February</option>
+    <option value="march">March</option>
+    <option value="april">April</option>
+    <option value="may">May</option>
+    <option value="june">June</option>
+    <option value="july">July</option>
+    <option value="august">August</option>
+    <option value="september">September</option>
+    <option value="october">October</option>
+    <option value="november">November</option>
+    <option value="december">December</option>
+  </select>
+  <select name ="month">
+    <option>Day</option>
+  </select>
+  <select name ="month">
+    <option>Year</option>
+  </select>
 </br>
 I agree to the terms and conditions <input type="checkbox">
 </br>
