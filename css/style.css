@@ -1,0 +1,36 @@
+body{
+  margin:50px;
+  background:url(https://external-preview.redd.it/dIyUN40EbO_nkYLr4_V44WXmBUERHx9_0i59EMis0_o.jpg?width=960&crop=smart&auto=webp&s=b172e31c9de403bf134e2f8866ec488d5b4e0fe0);
+  background-repeat:no-repeat;
+  background-size:cover;
+  border:2px solid white;
+  padding:5px;
+}
+.aboutme{
+  color:black;
+  font-size:48px;
+  text-align: center;
+}
+#allabout{
+  color:white;
+}
+li{
+  color:#FF1493;
+}
+
+
+#alpha{
+  text-align: center;
+  font-size:24px;
+  color:rgba(253, 227, 167, 1);
+}
+
+/* Decimal Base 10
+0-9
+Binary Base 2 
+0,1
+Hexadecimal Base 16
+0 - 9 A - F ( thus 16)
+
+R R G G B B
+*/
