@@ -10,7 +10,10 @@ body{
 h1{
   color:#9b59b6;
 }
-
+/*Make the <h1> element's color change to blue when hovered over */
+h1:hover{
+  color:blue;
+}
 /* Make all <h2> elements orange */
 h2 {
   color:orange;
@@ -37,8 +40,13 @@ input {
 }
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
+/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 #special{
   border:2px solid #1919eb;
+}
+#special:first-letter {
+  color:green;
+  font-size:100px;
 }
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
@@ -77,13 +85,12 @@ input:checked {
 }
 
 /* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
-
-
-/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-
-
-/*Make the <h1> element's color change to blue when hovered over */
-
+label{
+  text-transform: uppercase;
+}
 
 /*Make the <a> element's that have been visited gray */
+a:visited {
+  color:gray;
+}
 
